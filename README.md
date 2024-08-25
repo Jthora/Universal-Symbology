@@ -153,19 +153,7 @@ Geometric transformations include operations such as rotation, scaling, and tran
   - **Definition:** Rotation involves turning a shape around a fixed point, often the origin, by a certain angle.
   - **Proof:** Consider a point $$(x, y)$$ on the circumference of a circle centered at the origin. After rotating the circle by an angle $\theta$, the new coordinates $$(x', y')$$ can be derived using the rotation matrix:
 $$
-\begin{pmatrix}
-x' \\
-y'
-\end{pmatrix}
-=
-\begin{pmatrix}
-\cos\theta & -\sin\theta \\
-\sin\theta & \cos\theta
-\end{pmatrix}
-\begin{pmatrix}
-x \\
-y
-\end{pmatrix}
+\begin{pmatrix} x’ \ y’ \end{pmatrix} = \begin{pmatrix} \cos\theta & -\sin\theta \ \sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} x \ y \end{pmatrix}
 $$
     
     The equation of the circle $$(x')^2 + (y')^2 = r^2$$ remains unchanged, proving that the circle is invariant under rotation.
