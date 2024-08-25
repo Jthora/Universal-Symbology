@@ -160,19 +160,14 @@ Geometric transformations include operations such as rotation, scaling, and tran
 - **Scaling:**
   - **Definition:** Scaling changes the size of a shape by multiplying its dimensions by a constant factor.
   - **Proof:**
-    For a circle centered at the origin, scaling by a factor of $k$ results in a new radius $r' = kr$. The equation of the scaled circle is:
-    $$
-    x^2 + y^2 = (kr)^2
-    $$
+    For a circle centered at the origin, scaling by a factor of $k$ results in a new radius $r' = kr$. The equation of the scaled circle is: $$x^2 + y^2 = (kr)^2$$
     Despite the change in size, the shape remains a circle, demonstrating that the circle's form is invariant under scaling.
 
 - **Translation:**
   - **Definition:** Translation involves moving a shape from one location to another without altering its size, shape, or orientation.
   - **Proof:**
     Consider translating a circle by a vector $(a, b)$. The new equation of the translated circle is:
-    $$
-    (x - a)^2 + (y - b)^2 = r^2
-    $$
+    $$(x - a)^2 + (y - b)^2 = r^2$$
     The equation retains the same form, showing that the circle is invariant under translation.
 
 - **Other Geometric Shapes:**
