@@ -139,6 +139,8 @@ Geometric invariance refers to the property of certain geometric figures or symb
 Here is an inline equation that represents one of the most famous physical relationships: $E = mc^2$. This equation, while not geometric itself, illustrates the idea that fundamental relationships often have simple, elegant forms.
 
 - **Block Example:**
+- **Block Example:**
+![Equation](https://latex.codecogs.com/png.latex?\dpi{110}\bg_white(x-h)^2+(y-k)^2=r^2)
 $$
 (x - h)^2 + (y - k)^2 = r^2
 $$
