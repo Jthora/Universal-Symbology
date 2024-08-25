@@ -147,27 +147,28 @@ This equation represents a circle with radius $r$ centered at $(h, k)$. The equa
 #### **3.2.2 Transformations**
 
 Geometric transformations include operations such as rotation, scaling, and translation, which alter the position, size, or orientation of a shape. A key characteristic of universal geometric symbols is that their fundamental properties remain unchanged under these transformations.
-
+    
 - **Rotation:**
+    
   - **Definition:** Rotation involves turning a shape around a fixed point, often the origin, by a certain angle.
-  - **Proof:**
-    Consider a point $$(x, y)$$ on the circumference of a circle centered at the origin. After rotating the circle by an angle $\theta$, the new coordinates $$(x', y')$$ can be derived using the rotation matrix:
-    $$
-    \begin{pmatrix}
-    x' \\
-    y'
-    \end{pmatrix}
-    =
-    \begin{pmatrix}
-    \cos\theta & -\sin\theta \\
-    \sin\theta & \cos\theta
-    \end{pmatrix}
-    \begin{pmatrix}
-    x \\
-    y
-    \end{pmatrix}
-    $$
-    The equation of the circle $(x')^2 + (y')^2 = r^2$ remains unchanged, proving that the circle is invariant under rotation.
+  - **Proof:** Consider a point $$(x, y)$$ on the circumference of a circle centered at the origin. After rotating the circle by an angle $\theta$, the new coordinates $$(x', y')$$ can be derived using the rotation matrix:
+$$
+\begin{pmatrix}
+x' \\
+y'
+\end{pmatrix}
+=
+\begin{pmatrix}
+\cos\theta & -\sin\theta \\
+\sin\theta & \cos\theta
+\end{pmatrix}
+\begin{pmatrix}
+x \\
+y
+\end{pmatrix}
+$$
+    
+    The equation of the circle $$(x')^2 + (y')^2 = r^2$$ remains unchanged, proving that the circle is invariant under rotation.
 
 - **Scaling:**
   - **Definition:** Scaling changes the size of a shape by multiplying its dimensions by a constant factor.
