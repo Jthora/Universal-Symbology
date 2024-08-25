@@ -151,7 +151,7 @@ Geometric transformations include operations such as rotation, scaling, and tran
 - **Rotation:**
   - **Definition:** Rotation involves turning a shape around a fixed point, often the origin, by a certain angle.
   - **Proof:**
-    Consider a point $(x, y)$ on the circumference of a circle centered at the origin. After rotating the circle by an angle $\theta$, the new coordinates $(x', y')$ can be derived using the rotation matrix:
+    Consider a point $$(x, y)$$ on the circumference of a circle centered at the origin. After rotating the circle by an angle $\theta$, the new coordinates $$(x', y')$$ can be derived using the rotation matrix:
     $$
     \begin{pmatrix}
     x' \\
