@@ -8,7 +8,7 @@ Provide a succinct overview of the document, highlighting its objectives and sig
 
 **Contents:**  
 - **Overview of Universal Symbology:** This document explores the concept of Universal Symbology, examining its theoretical foundations, empirical evidence, and interdisciplinary applications. 
-- **Mathematical and Empirical Evidence:** The document provides rigorous mathematical proofs and empirical data to demonstrate that Universal Symbology is real and fundamental to understanding various natural and artificial systems.
+- **Mathematical and Empirical Evidence:** The documents in the repository provide rigorous mathematical proofs and empirical data to demonstrate that Universal Symbology is real and fundamental to understanding various natural and artificial systems.
 - **Legal Dedication:** This work is legally dedicated to the public domain under the GNU General Public License v3.0 (GPLv3), ensuring it remains accessible for public use, modification, and distribution.
 
 ## 2. Legal Notice
