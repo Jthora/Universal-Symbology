@@ -1,6 +1,12 @@
 # Defensive Publication Notice
 ## 1. Universal Symbology 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13739608.svg)](https://doi.org/10.5281/zenodo.13739608)
+
+Basic Translation Instructions for Universal Symbology
+![Universal Symbology CheatSheet](https://github.com/Jthora/Universal-Symbology/blob/main/UniversalSymbology-CheatSheet-ReferenceImage.png)
+
+
 ### 1.1 Abstract
 
 **Purpose:**  
