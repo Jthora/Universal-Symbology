@@ -1,7 +1,5 @@
 # Defensive Publication Notice
-## Universal Symbology 
-
-## 1. Title and Introduction
+## 1. Universal Symbology 
 
 ### 1.1 Abstract
 
