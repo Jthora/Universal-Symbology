@@ -2,7 +2,7 @@
 
 ## Universal Symbology
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13739608.svg)](https://doi.org/10.5281/zenodo.13739608)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13750459.svg)](https://doi.org/10.5281/zenodo.13750459)
 
 ---
 
