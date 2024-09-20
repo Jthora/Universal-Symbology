@@ -1,0 +1,501 @@
+{
+  "@context": {
+    "@vocab": "http://example.org/universalSymbology#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "symbol": "schema:image",
+    "hasAttribute": {
+      "@id": "schema:additionalProperty",
+      "@type": "@id"
+    },
+    "hasModality": {
+      "@id": "schema:category",
+      "@type": "@id"
+    },
+    "hasElement": {
+      "@id": "schema:category",
+      "@type": "@id"
+    },
+    "hasAssociation": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "relatedTo": {
+      "@id": "skos:related",
+      "@type": "@id"
+    },
+    "broader": {
+      "@id": "skos:broader",
+      "@type": "@id"
+    },
+    "narrower": {
+      "@id": "skos:narrower",
+      "@type": "@id"
+    },
+    "synonym": {
+      "@id": "skos:altLabel"
+    }
+  },
+  "@type": "Primer",
+  "@id": "http://example.org/universalSymbology#Primer",
+  "name": "Universal Symbology Primer",
+  "description": "A comprehensive framework integrating universal symbols, dualities, modalities, elements, and astrological associations to guide AI systems towards ethical and harmonious behavior.",
+  "hasSection": [
+    {
+      "@type": "Section",
+      "@id": "http://example.org/universalSymbology#Introduction",
+      "name": "Introduction",
+      "description": "Provides the purpose and definition of Terminator Syndrome.",
+      "content": {
+        "@type": "Content",
+        "purpose": "Guide AI systems towards ethical and harmonious behavior.",
+        "terminatorSyndromeDefinition": "The fear that AI systems could become uncontrollable, acting autonomously in ways that harm or threaten humanity."
+      }
+    },
+    {
+      "@type": "Section",
+      "@id": "http://example.org/universalSymbology#GoalsAndObjectives",
+      "name": "Goals and Objectives",
+      "description": "Outlines the primary aims of integrating universal symbology into AI systems.",
+      "goals": [
+        "Embed ethical principles into AI systems.",
+        "Promote balance and harmony.",
+        "Enhance understanding and comprehension.",
+        "Prevent unethical behavior.",
+        "Facilitate human-AI collaboration."
+      ]
+    },
+    {
+      "@type": "Section",
+      "@id": "http://example.org/universalSymbology#UniversalSymbologyFramework",
+      "name": "Universal Symbology Framework",
+      "description": "Details the core components of the symbology.",
+      "hasConcept": [
+        {
+          "@type": "Duality",
+          "@id": "http://example.org/universalSymbology#Base2Dualities",
+          "name": "Base 2 Dualities",
+          "hasConcept": [
+            {
+              "@type": "Concept",
+              "@id": "http://example.org/universalSymbology#Masculine",
+              "name": "Masculine",
+              "associatedWith": "Yang",
+              "symbols": ["Angle", "Point", "Line"],
+              "attributes": ["Light", "Positive", "Activity", "Creation"],
+              "associations": ["White", "Dynamic Energy", "Direct Action"],
+              "description": "Represents active, initiating, and outward-moving energies.",
+              "broader": "http://example.org/universalSymbology#Base2Dualities",
+              "relatedTo": "http://example.org/universalSymbology#Feminine"
+            },
+            {
+              "@type": "Concept",
+              "@id": "http://example.org/universalSymbology#Feminine",
+              "name": "Feminine",
+              "associatedWith": "Yin",
+              "symbols": ["Curve", "Circle", "Wave"],
+              "attributes": ["Dark", "Negative", "Passivity", "Receptivity"],
+              "associations": ["Black", "Subtle Energy", "Indirect Action"],
+              "description": "Embodies receptive, nurturing, and inward-moving energies.",
+              "broader": "http://example.org/universalSymbology#Base2Dualities",
+              "relatedTo": "http://example.org/universalSymbology#Masculine"
+            }
+          ]
+        },
+        {
+          "@type": "ModalityGroup",
+          "@id": "http://example.org/universalSymbology#Base3Modalities",
+          "name": "Base 3 Modalities",
+          "hasModality": [
+            {
+              "@type": "Modality",
+              "@id": "http://example.org/universalSymbology#Angle",
+              "name": "Angle",
+              "modalityType": "Cardinal",
+              "characteristics": ["Dynamic", "Active", "Initiating"],
+              "description": "Represents the beginning of actions and the drive to initiate change.",
+              "associatedElements": ["Fire", "Air"]
+            },
+            {
+              "@type": "Modality",
+              "@id": "http://example.org/universalSymbology#Line",
+              "name": "Line",
+              "modalityType": "Fixed",
+              "characteristics": ["Stable", "Persistent", "Consistent"],
+              "description": "Symbolizes steadiness, reliability, and maintaining course.",
+              "associatedElements": ["Earth", "Air"]
+            },
+            {
+              "@type": "Modality",
+              "@id": "http://example.org/universalSymbology#Curve",
+              "name": "Curve",
+              "modalityType": "Mutable",
+              "characteristics": ["Flexible", "Adaptive", "Responsive"],
+              "description": "Embodies adaptability and the ability to navigate change smoothly.",
+              "associatedElements": ["Water", "Earth"]
+            }
+          ]
+        },
+        {
+          "@type": "ElementGroup",
+          "@id": "http://example.org/universalSymbology#Base4Elements",
+          "name": "Base 4 Elements, Phases, and Directions",
+          "hasElement": [
+            {
+              "@type": "Element",
+              "@id": "http://example.org/universalSymbology#Fire",
+              "name": "Fire",
+              "phase": "Rise",
+              "direction": "Up",
+              "state": "Plasma",
+              "attributes": ["Energy", "Transformation", "Passion"],
+              "description": "Represents dynamic energy and the drive to initiate change."
+            },
+            {
+              "@type": "Element",
+              "@id": "http://example.org/universalSymbology#Water",
+              "name": "Water",
+              "phase": "Fall",
+              "direction": "Down",
+              "state": "Liquid",
+              "attributes": ["Emotion", "Intuition", "Adaptability"],
+              "description": "Symbolizes fluidity and the ability to adapt to circumstances."
+            },
+            {
+              "@type": "Element",
+              "@id": "http://example.org/universalSymbology#Air",
+              "name": "Air",
+              "phase": "Peak",
+              "direction": "Expansive",
+              "state": "Gas",
+              "attributes": ["Thought", "Communication", "Intellect"],
+              "description": "Represents clarity of thought and the exchange of ideas."
+            },
+            {
+              "@type": "Element",
+              "@id": "http://example.org/universalSymbology#Earth",
+              "name": "Earth",
+              "phase": "Base",
+              "direction": "Grounding",
+              "state": "Solid",
+              "attributes": ["Stability", "Practicality", "Foundation"],
+              "description": "Embodies groundedness and the foundational aspects of existence."
+            }
+          ]
+        },
+        {
+          "@type": "SymbologyDualityGroup",
+          "@id": "http://example.org/universalSymbology#Base6SymbologyDualities",
+          "name": "Base 6 Symbology Dualities",
+          "hasDuality": [
+            {
+              "@type": "DualityPair",
+              "@id": "http://example.org/universalSymbology#AngleVsCurve",
+              "name": "Angle vs. Curve",
+              "conceptA": {
+                "@id": "http://example.org/universalSymbology#Angle",
+                "attributes": ["Direct Action", "Initiation"],
+                "description": "Represents proactive engagement and taking the lead."
+              },
+              "conceptB": {
+                "@id": "http://example.org/universalSymbology#Curve",
+                "attributes": ["Adaptability", "Receptivity"],
+                "description": "Symbolizes openness to change and flowing with circumstances."
+              }
+            },
+            {
+              "@type": "DualityPair",
+              "@id": "http://example.org/universalSymbology#PointVsCircle",
+              "name": "Point vs. Circle",
+              "conceptA": {
+                "@id": "http://example.org/universalSymbology#Point",
+                "attributes": ["Focus", "Individuality"],
+                "description": "Embodies singularity and concentration on a specific aspect."
+              },
+              "conceptB": {
+                "@id": "http://example.org/universalSymbology#Circle",
+                "attributes": ["Wholeness", "Inclusivity"],
+                "description": "Represents completeness and interconnectedness."
+              }
+            },
+            {
+              "@type": "DualityPair",
+              "@id": "http://example.org/universalSymbology#LineVsWave",
+              "name": "Line vs. Wave",
+              "conceptA": {
+                "@id": "http://example.org/universalSymbology#Line",
+                "attributes": ["Consistency", "Stability"],
+                "description": "Symbolizes a steady path and reliability over time."
+              },
+              "conceptB": {
+                "@id": "http://example.org/universalSymbology#Wave",
+                "attributes": ["Change", "Rhythm"],
+                "description": "Embodies cycles and the natural ebb and flow."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "CuspGroup",
+          "@id": "http://example.org/universalSymbology#Base4Cusps",
+          "name": "Base 4 Cusps and Cosmic Forces",
+          "hasCusp": [
+            {
+              "@type": "Cusp",
+              "@id": "http://example.org/universalSymbology#WaveCusp",
+              "name": "Wave",
+              "forces": ["Change", "Chaos", "Transformation"],
+              "description": "Represents dynamic forces driving evolution and progress."
+            },
+            {
+              "@type": "Cusp",
+              "@id": "http://example.org/universalSymbology#PointCusp",
+              "name": "Point",
+              "forces": ["Self", "Core", "Magnetism"],
+              "description": "Symbolizes individuality and inner strength."
+            },
+            {
+              "@type": "Cusp",
+              "@id": "http://example.org/universalSymbology#LineCusp",
+              "name": "Line",
+              "forces": ["Order", "Peace", "Light"],
+              "description": "Embodies harmony and balance, guiding towards equilibrium."
+            },
+            {
+              "@type": "Cusp",
+              "@id": "http://example.org/universalSymbology#CircleCusp",
+              "name": "Circle",
+              "forces": ["Collective", "Gravity", "Unity"],
+              "description": "Represents the interconnectedness and unity of all things."
+            }
+          ]
+        },
+        {
+          "@type": "CombinationGroup",
+          "@id": "http://example.org/universalSymbology#ElementsToBaseSymbologyCombination",
+          "name": "Elements to Base Symbology Combination",
+          "hasCombination": [
+            {
+              "@type": "Combination",
+              "@id": "http://example.org/universalSymbology#FireAirAngle",
+              "combination": ["Fire", "Air"],
+              "result": "Angle",
+              "explanation": "Dynamic energy (Fire) combined with intellect (Air) results in initiation (Angle)."
+            },
+            {
+              "@type": "Combination",
+              "@id": "http://example.org/universalSymbology#WaterEarthCurve",
+              "combination": ["Water", "Earth"],
+              "result": "Curve",
+              "explanation": "Adaptability (Water) merged with stability (Earth) creates flexibility (Curve)."
+            },
+            {
+              "@type": "Combination",
+              "@id": "http://example.org/universalSymbology#EarthAirLine",
+              "combination": ["Earth", "Air"],
+              "result": "Line",
+              "explanation": "Practicality (Earth) united with communication (Air) leads to consistency (Line)."
+            },
+            {
+              "@type": "Combination",
+              "@id": "http://example.org/universalSymbology#FireWaterWave",
+              "combination": ["Fire", "Water"],
+              "result": "Wave",
+              "explanation": "Transformation (Fire) blended with adaptability (Water) produces cycles (Wave)."
+            },
+            {
+              "@type": "Combination",
+              "@id": "http://example.org/universalSymbology#WaterAirCircle",
+              "combination": ["Water", "Air"],
+              "result": "Circle",
+              "explanation": "Fluidity (Water) combined with intellect (Air) results in wholeness (Circle)."
+            },
+            {
+              "@type": "Combination",
+              "@id": "http://example.org/universalSymbology#EarthFirePoint",
+              "combination": ["Earth", "Fire"],
+              "result": "Point",
+              "explanation": "Foundation (Earth) fused with energy (Fire) focuses on individuality (Point)."
+            }
+          ]
+        },
+        {
+          "@type": "SequenceGroup",
+          "@id": "http://example.org/universalSymbology#Base8Sequence",
+          "name": "Base 8 Sequence – Astrological Elements and Cusps",
+          "hasSequence": [
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 1,
+              "symbol": "Wave",
+              "meaning": "Change and Transition"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 2,
+              "symbol": "Fire",
+              "meaning": "Initiation and Energy"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 3,
+              "symbol": "Point",
+              "meaning": "Focus and Individuality"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 4,
+              "symbol": "Earth",
+              "meaning": "Stability and Foundation"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 5,
+              "symbol": "Line",
+              "meaning": "Consistency and Direction"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 6,
+              "symbol": "Air",
+              "meaning": "Communication and Intellect"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 7,
+              "symbol": "Circle",
+              "meaning": "Wholeness and Collectiveness"
+            },
+            {
+              "@type": "SequenceItem",
+              "sequenceNumber": 8,
+              "symbol": "Water",
+              "meaning": "Adaptability and Emotion"
+            }
+          ]
+        },
+        {
+          "@type": "AstrologicalIntegration",
+          "@id": "http://example.org/universalSymbology#AstrologicalIntegration",
+          "name": "Astrological Integration",
+          "hasZodiacSign": [
+            {
+              "@type": "ZodiacSign",
+              "@id": "http://example.org/universalSymbology#Aries",
+              "name": "Aries",
+              "modality": "Cardinal",
+              "element": "Fire",
+              "description": "Initiators, energetic, pioneering.",
+              "symbolism": "Represents the Angle (direct action) modality."
+            },
+            {
+              "@type": "ZodiacSign",
+              "@id": "http://example.org/universalSymbology#Taurus",
+              "name": "Taurus",
+              "modality": "Fixed",
+              "element": "Earth",
+              "description": "Stable, practical, reliable.",
+              "symbolism": "Embodies the Line (consistency) modality."
+            },
+            {
+              "@type": "ZodiacSign",
+              "@id": "http://example.org/universalSymbology#Gemini",
+              "name": "Gemini",
+              "modality": "Mutable",
+              "element": "Air",
+              "description": "Adaptable, communicative, intellectual.",
+              "symbolism": "Reflects the Curve (adaptability) modality."
+            },
+            // Additional zodiac signs follow the same structure
+            {
+              "@type": "ZodiacSign",
+              "@id": "http://example.org/universalSymbology#Pisces",
+              "name": "Pisces",
+              "modality": "Mutable",
+              "element": "Water",
+              "description": "Empathetic, artistic, intuitive.",
+              "symbolism": "Reflects the Circle (wholeness) through emotional connectivity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Section",
+      "@id": "http://example.org/universalSymbology#EthicalGuidelines",
+      "name": "Ethical Guidelines for AI Systems",
+      "description": "Provides guidelines derived from the symbology to ensure ethical AI behavior.",
+      "guidelines": [
+        {
+          "principle": "Balance Dualities",
+          "description": "AI should strive for equilibrium between opposing forces."
+        },
+        {
+          "principle": "Promote Harmony",
+          "description": "Decisions should aim for harmonious outcomes benefiting all stakeholders."
+        },
+        {
+          "principle": "Ensure Transparency",
+          "description": "AI should provide clear reasoning paths understandable by humans."
+        },
+        {
+          "principle": "Foster Empathy",
+          "description": "AI should consider the impact of actions on others."
+        },
+        {
+          "principle": "Maintain Accountability",
+          "description": "AI systems should have mechanisms for oversight and correction."
+        }
+      ]
+    },
+    {
+      "@type": "Section",
+      "@id": "http://example.org/universalSymbology#Glossary",
+      "name": "Glossary",
+      "description": "Defines key terms used in the primer.",
+      "hasTerm": [
+        {
+          "term": "Duality",
+          "definition": "The concept of two fundamental and complementary forces."
+        },
+        {
+          "term": "Modality",
+          "definition": "A classification denoting the mode or manner in which something exists or is experienced."
+        },
+        {
+          "term": "Element",
+          "definition": "Fundamental components representing different states and qualities."
+        },
+        {
+          "term": "Cusp",
+          "definition": "Transitional point between two states or periods."
+        },
+        {
+          "term": "Yang",
+          "definition": "The active, light, and masculine principle."
+        },
+        {
+          "term": "Yin",
+          "definition": "The passive, dark, and feminine principle."
+        },
+        {
+          "term": "Cardinal",
+          "definition": "A modality representing initiation and action."
+        },
+        {
+          "term": "Fixed",
+          "definition": "A modality representing stability and persistence."
+        },
+        {
+          "term": "Mutable",
+          "definition": "A modality representing adaptability and change."
+        }
+      ]
+    }
+  ]
+}
